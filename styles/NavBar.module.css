@@ -1,0 +1,49 @@
+.nav_bar {
+    position: absolute;
+    background: transparent;
+    top: 0;
+    width: 100%;
+    max-width: 1320px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.nav_links {
+    position: relative;
+    color: white;
+}
+
+.nav_links a {
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+
+.nav_links a:hover {
+    transform: scale(1.5);
+    color:rgb(110, 171, 224);
+}
+
+.active {
+    color: rgb(32, 110, 178);
+}
+
+.bar {
+    position: absolute;
+    top: 20px;
+    height: 5px;
+    width: 43px;
+    border-radius: 20px;
+    background: white;
+    transition: all .5s;
+}
+
+/* LOGO */
+.logo {
+    position: relative;
+    height: 70px;
+    width: 70px;
+}
